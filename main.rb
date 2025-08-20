@@ -19,12 +19,12 @@ if ARGV.length > 0
   receipt_calculator = ReceiptCalculator.new(ARGV[0])
   print_receipt(receipt_calculator.calculate)
 else
-  receipt_calculator = ReceiptCalculator.new("receipt1.txt")
+  receipt_calculator = ReceiptCalculator.new("input/receipt1.txt")
   print_receipt(receipt_calculator.calculate)
 
-  receipt_calculator = ReceiptCalculator.new("receipt2.txt")
+  receipt_calculator = ReceiptCalculator.new("input/receipt2.txt")
   print_receipt(receipt_calculator.calculate)
 
-  receipt_calculator = ReceiptCalculator.new("receipt3.txt")
+  receipt_calculator = ReceiptCalculator.new("input/receipt3.txt")
   print_receipt(receipt_calculator.calculate)
 end

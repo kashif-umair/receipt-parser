@@ -12,7 +12,7 @@ A Ruby application that parses and calculates taxes for shopping receipts.
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kashif-umair/receipt-parser
    cd receipt-parser
    ```
 
